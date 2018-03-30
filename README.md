@@ -10,14 +10,13 @@ Using this module alongside Firebase means there is no need to write and host an
 
 Use our project starter repository (https://github.com/SolidStateGroup/firebase-project-starter) to help you get started setting up your own Firebase project.
 
-
 ## Installation
 
 ```
-$ npm install --save react-native-firebase-auth
+$ npm install --save react-native-firebase-auth-plus
 ```
 
-**Note:** If you use React Native < `v0.39` or you are already using `react-native-google-signin` then stick with `v0.0.11` (`npm install react-native-firebase-auth@0.0.11 --save`)
+**Note:** If you use React Native < `v0.39` or you are already using `react-native-google-signin` then stick with `v0.0.11` (`npm install react-native-firebase-auth-plus@0.0.11 --save`)
 
 ## Project Setup
 
@@ -35,7 +34,7 @@ You will need to initialise Firebase within your app in the usual way. See https
 ## Usage
 
 ```
-import FireAuth from 'react-native-firebase-auth';
+import FireAuth from 'react-native-firebase-auth-plus';
 
 constructor(props) {
   super(props);
@@ -101,7 +100,6 @@ updatePassword () => {
       ...
     });
 }
-
 ```
 
 ## Credits
@@ -111,11 +109,13 @@ https://github.com/magus/react-native-facebook-login
 https://github.com/joonhocho/react-native-google-sign-in
 
 # Getting Help
+
 If you encounter a bug or feature request we would like to hear about it. Before you submit an issue please search existing issues in order to prevent duplicates.
 
 # Contributing
+
 For more information about contributing PRs, please see our <a href="CONTRIBUTING.md">Contribution Guidelines</a>.
 
-
 # Get in touch
+
 If you have any questions about our projects you can email <a href="mailto:projects@solidstategroup.com">projects@solidstategroup.com</a>.

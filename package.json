@@ -1,5 +1,5 @@
 {
-  "name": "react-native-firebase-auth",
+  "name": "react-native-firebase-auth-plus",
   "version": "1.0.1",
   "description": "Simplified Firebase authentication with social platform support",
   "main": "index.js",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SolidStateGroup/react-native-firebase-auth.git"
+    "url": "git+https://github.com/t-web/react-native-firebase-auth.git"
   },
   "bugs": {
-    "url": "https://github.com/SolidStateGroup/react-native-firebase-auth/issues"
+    "url": "https://github.com/t-web/react-native-firebase-auth/issues"
   },
-  "homepage": "https://github.com/SolidStateGroup/react-native-firebase-auth#readme"
+  "homepage": "https://github.com/t-web/react-native-firebase-auth#readme"
 }
